@@ -3,8 +3,8 @@
 
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "Access key"
-  secret_key = "Secret key"
+  access_key = "$(var.accesskey)"
+  secret_key = "$(var.secretkey)"
 }
 
 
